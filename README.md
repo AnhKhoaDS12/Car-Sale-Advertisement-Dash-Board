@@ -15,10 +15,9 @@
 2. Exploratory Data Analysis (EDA)
 
 + Target Feature: seller’s price in advertisement (USD)
-+ Key: 0 = did not transaction, 1 = transaction
 + Three numerical features (continuous): price (USD), mileage ('000 Km), engV ('000 cubic cm)
 + Six categorical features: car, body, engType, registration, model, drive 
-+ Two missing values: engV (4.5%), drive (5.3%)
++ Two features have missing values: engV (4.5%), drive (5.3%)
 + Correlation: there is no linear relationship among the numerical features
 
 3. Create a dash board
